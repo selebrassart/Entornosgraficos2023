@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Ejercicio 5</title>
+    </head>
+        <frameset rows="50%, 50%, 100%"> <!-- Define frameset con tres filas: 50%, 50%, 100% -->
+        <frameset cols="50%, 50%"> <!-- Define frameset anidado con dos columnas: 50%, 50% -->
+            <frame src="encabezado.html"> <!-- Especifica la URL del primer frame de la primera fila -->
+            <frame src="logo.html"> <!-- Especifica la URL del segundo frame de la primera fila -->
+        </frameset>
+        <frameset cols="50%, 50%"> <!-- Define otro frameset anidado con dos columnas: 50%, 50% -->
+            <frame src="menu.html"> <!-- Especifica la URL del primer frame de la segunda fila -->
+            <frame src="principal.html"> <!-- Especifica la URL del segundo frame de la segunda fila -->
+        </frameset>
+        <frame src="pie.html"> <!-- Especifica la URL del frame único de la tercera fila -->
+        </frameset>
+    <body>
+        <p>Si ves esto, tu navegador no soporta frames.</p>
+    </body>
+</html>
