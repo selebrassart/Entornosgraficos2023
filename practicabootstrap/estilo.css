@@ -1,0 +1,11 @@
+.col-sm ml-auto{
+    color: black;
+    margin: 2% auto;
+    text-align: center;
+    border-color: rgb(99, 98, 98);
+    border-width: thin;
+    border-radius: 5px;
+    border-style: solid;
+    font-family: Helvetica, sans-serif;
+
+}
